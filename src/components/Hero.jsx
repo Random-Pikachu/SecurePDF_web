@@ -3,13 +3,13 @@ import React from 'react'
 const Hero = () => {
   return (
     <>
-        <div className="relative h-screen flex items-center justify-center text-[#ececec] overflow-x-hidden">
+        <div className="relative flex items-center justify-center text-[#ececec] min-h-screen">
             <div className='flex items-center flex-col relative z-10'>
 
                 <div className='flex items-center justify-center relative'>
                     <h1 className='font-Montserrat font-bold  text-[140px] z-10'>SecurePDF</h1>
                     <div className="absolute z-0 top-[55%] left-[65%]">
-                        <div className="w-[548px] h-[548px] bg-[#A940FF] opacity-45 rounded-full blur-[100px]"></div>
+                        <div className="w-[620px] h-[620px] bg-[#A940FF] opacity-45 rounded-full blur-[130px]"></div>
                     </div>
 
                     <div className="absolute z-0 top-[-100%] -left-[46%]">
@@ -21,7 +21,7 @@ const Hero = () => {
                 <div className='flex items-center justify-center flex-row gap-6 mt-4 font-medium z-10'>
                     <button type='button' className='text-[#000] bg-btn font-Satoshi text-[18px] rounded-lg px-5 py-2.5 me-2 mb-2'>Download Now</button>
                     
-                    <button type='button' className='text-btn bg-[#fefefe] font-Satoshi text-[18px] rounded-lg px-5 py-2.5 me-2 mb-2'>Vist Repo</button>
+                    <button type='button' className='text-btn bg-[#fefefe] font-Satoshi text-[18px] rounded-lg px-5 py-2.5 me-2 mb-2'>Visit Repo</button>
                 </div>
             </div>
         </div>
