@@ -4,19 +4,19 @@ import { FaArrowDown } from "react-icons/fa";
 const Features = () => {
   return (
     <>
-        <div className='text-[#ececec] flex items-center justify-center -mt-[220px] flex-col gap-3'>
-            <h4 className='font-Satoshi font-medium text-[19px]'>Features</h4>
-            <FaArrowDown />
+        <div className='text-[#ececec] flex items-center justify-center -mt-[270px]  xsx:-mt-[230px] xs:-mt-[350px] md:-mt-[200px] flex-col gap-3'>
+            <h4 className='font-Satoshi font-medium text-[17px] xs:text-[19px]'>Features</h4>
+            <FaArrowDown className='animate-bounce' />
             
             
             {/* line & Grid */}
             <div className='relative flex flex-col items-center mt-12'>
                 {/* line */}
-                <div className='w-[4px] h-[740px] bg-[#fff] opacity-17 z-0'></div>
+                <div className='w-[4px] h-[860px] mx:h-[740px] bg-[#fff] opacity-17 z-0'></div>
 
 
                 {/* icon 1 */}
-                <div className='absolute top-[80px]'>
+                <div className='absolute top-[50px] mx:top-[80px]'>
                     <div >
                         <svg 
                             xmlns="http://www.w3.org/2000/svg" 
@@ -31,14 +31,14 @@ const Features = () => {
 
 
                     {/* feature 1 */}
-                    <div className='absolute -left-[500px] -top-[30px] w-[450px] h-[150px] bg-[#fefefe]/5 border border-[#fefefe]/20  px-8 py-6 rounded-2xl backdrop-blur-sm z-10 flex items-end justify-center flex-col'>
-                        <h3 className='font-Montserrat font-bold text-right'>Offline DRM Enforcement</h3>
-                        <p className='font-Satoshi font-medium text-right'>All encryption and validation happen locally to ensure full offline protection.</p>
+                    <div className='absolute top-[60px] left-1/2 transform -translate-x-1/2 mx:-left-[500px] mx:-top-[30px] mx:translate-x-0 w-[350px] xs:w-[400px] mx:w-[450px] h-[150px] bg-[#fefefe]/5 border border-[#fefefe]/20  px-6 mx:px-8 py-6 rounded-2xl backdrop-blur-sm z-10 flex items-center mx:items-end justify-center mx:justify-center flex-col'>
+                        <h3 className='font-Montserrat font-bold text-center mx:text-right'>Offline DRM Enforcement</h3>
+                        <p className='font-Satoshi font-medium text-center mx:text-right'>All encryption and validation happen locally to ensure full offline protection.</p>
                     </div>
                 </div>
                 
                 {/* icon 2 */}
-                <div className='absolute top-[300px]'>
+                <div className='absolute top-[300px] mx:top-[300px]'>
                     <div >
                         <svg 
                             xmlns="http://www.w3.org/2000/svg" 
@@ -53,15 +53,23 @@ const Features = () => {
 
 
                     {/* feature 2 */}
-                    <div className='absolute left-[80px] -top-[30px] w-[450px] h-[150px] bg-[#fefefe]/5 border border-[#fefefe]/20  px-8 py-6 rounded-2xl backdrop-blur-sm z-10 flex items-start justify-center flex-col'>
-                        <h3 className='font-Montserrat font-bold text-left'>AES Based Encryption</h3>
-                        <p className='font-Satoshi font-medium text-left'>AES encryption secures your PDFs, allowing access only when conditions match.</p>
+                    <div className='absolute top-[70px] left-1/2 transform -translate-x-1/2 mx:left-[80px] mx:-top-[30px] mx:translate-x-0 w-[350px] xs:w-[400px] mx:w-[450px] h-[150px] bg-[#fefefe]/5 border border-[#fefefe]/20  px-6 mx:px-8 py-6 rounded-2xl backdrop-blur-sm z-10 flex items-center mx:items-start justify-center mx:justify-center flex-col'>
+                        <h3 className='font-Montserrat font-bold text-center mx:text-left'>AES Based Encryption</h3>
+                        <p className='font-Satoshi font-medium text-center mx:text-left'>AES encryption secures your PDFs, allowing access only when conditions match.</p>
+                    </div>
+
+                    <div className="absolute z-0  ">
+                        <div className="w-[350px] h-[350px] bg-[#40FCFF] opacity-12 rounded-full blur-[100px]"></div>
+                    </div>
+                    
+                    <div className="absolute z-0  -left-[660px] -top-[200px]">
+                        <div className="w-[450px] h-[450px] bg-[#40FCFF] opacity-12 rounded-full blur-[100px]"></div>
                     </div>
                 </div>
                 
                 
                 {/* icon 3 */}
-                <div className='absolute top-[520px]'>
+                <div className='absolute top-[560px] mx:top-[520px]'>
                     <div >
                         <svg 
                             xmlns="http://www.w3.org/2000/svg" 
@@ -75,16 +83,16 @@ const Features = () => {
 
 
                     {/* feature 3 */}
-                    <div className='absolute -left-[500px] -top-[30px] w-[450px] h-[150px] bg-[#fefefe]/5 border border-[#fefefe]/20  px-8 py-6 rounded-2xl backdrop-blur-sm z-10 flex items-end justify-center flex-col'>
-                        <h3 className='font-Montserrat font-bold text-right'>Access Locked by Device & Time</h3>
-                        <p className='font-Satoshi font-medium text-right'>Restricts PDF access to specific MAC address and defined time window.</p>
+                    <div className='absolute top-[60px] left-1/2 transform -translate-x-1/2 mx:-left-[500px] mx:-top-[30px] mx:translate-x-0 w-[350px] xs:w-[400px] mx:w-[450px] h-[150px] bg-[#fefefe]/5 border border-[#fefefe]/20  px-6 mx:px-8 py-6 rounded-2xl backdrop-blur-sm z-10 flex items-center mx:items-end justify-center mx:justify-center flex-col'>
+                        <h3 className='font-Montserrat font-bold text-center mx:text-right'>Access Locked by Device & Time</h3>
+                        <p className='font-Satoshi font-medium text-center mx:text-right'>Restricts PDF access to specific MAC address and defined time window.</p>
                     </div>
                 </div>
                 
                 
                 
                 {/* icon 4 */}
-                <div className='absolute top-[740px]'>
+                <div className='absolute top-[800px] mx:top-[740px]'>
                     <div >
                         <svg 
                             xmlns="http://www.w3.org/2000/svg" 
@@ -99,10 +107,10 @@ const Features = () => {
 
 
                     {/* feature 3 */}
-                    <div className='absolute left-[80px] -top-[30px] w-[450px] h-[150px] bg-[#fefefe]/5 border border-[#fefefe]/20  px-8 py-6 rounded-2xl backdrop-blur-sm z-10 flex items-start justify-center flex-col'>
-                        <h3 className='font-Montserrat font-bold text-left'>Copy & Print Protection
+                    <div className='absolute top-[60px] left-1/2 transform -translate-x-1/2 mx:left-[80px] mx:-top-[30px] mx:translate-x-0 w-[350px] xs:w-[400px] mx:w-[450px] h-[150px] bg-[#fefefe]/5 border border-[#fefefe]/20  px-6 mx:px-8 py-6 rounded-2xl backdrop-blur-sm z-10 flex items-center mx:items-start justify-center mx:justify-center flex-col'>
+                        <h3 className='font-Montserrat font-bold text-center mx:text-left'>Copy & Print Protection
 </h3>
-                        <p className='font-Satoshi font-medium text-left'>Blocks copying and printing directly within the built-in PDF viewer.</p>
+                        <p className='font-Satoshi font-medium text-center mx:text-left'>Blocks copying and printing directly within the built-in PDF viewer.</p>
                     </div>
                 </div>
                 

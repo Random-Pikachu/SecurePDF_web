@@ -26,8 +26,15 @@
   --color-bgc: #120018;
   --color-btn: #2DBA4E;
   --color-wt: #FEFEFE;
+  --breakpoint-mx: 1058px;
+  --breakpoint-mcx: 1024px;
+  --breakpoint-xs: 440px;
+  --breakpoint-xsx: 442px;
 }
 
 body {
   background: #120018;
 }
+/* @config {
+  --breakpoint-max-md: 768px;
+} */
