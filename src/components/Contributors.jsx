@@ -9,7 +9,8 @@ const Contributors = () => {
             "role": 'PDF viewer & GUI',
             "avatar_url": "https://avatars.githubusercontent.com/u/122357648?v=4",
             "login": "zorro1107",
-            "name": "Anirudh Navuduri"
+            "name": "Anirudh Navuduri",
+            "github": "https://github.com/zorro1107"
         },
         
         {
@@ -17,7 +18,9 @@ const Contributors = () => {
             "role": 'File Encryption, Decryption & GUI',
             "avatar_url": "https://avatars.githubusercontent.com/u/75836554?v=4",
             "login": "Random-Pikachu",
-            "name": "Sangam Pratap Singh"
+            "name": "Sangam Pratap Singh",
+            "github": "https://github.com/Random-Pikachu"
+
         }
     ]
 
@@ -36,7 +39,7 @@ const Contributors = () => {
                             <div className='flex flex-row items-center justify-center gap-6'>
                                 <img src={contributor.avatar_url} alt={contributor.login} className='w-[75px] h-auto rounded-full' />
                                 <div className='flex flex-col font-Satoshi text-[16px] text-wt'>
-                                    <span>{contributor.login}</span>
+                                    <a href={contributor.github} target='blank_'>{contributor.login}</a>
                                     <span>{contributor.name}</span>
                                     <span>Role: {contributor.role}</span>
                                     <a href={contributor.linkedIn} className='text-wt font-bold'>LinkedIn</a>
